@@ -12,6 +12,10 @@ public class Role {
     private Double sp;   //能量值
     private Double mp;   //魔法值
 
+    //get set  toString
+
+
+
     public String getHead() {
         return head;
     }

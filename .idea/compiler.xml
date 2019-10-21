@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="DataStructure_learn20190615" target="1.5" />
+      <module name="DataStructure_learn20190615" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
