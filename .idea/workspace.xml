@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ded5779-9f6e-413c-b94e-73e975e73251" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/builder/LOLRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/builder/TestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/test/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/builder/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/builder/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/builder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/builder/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/builder/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/建造者模式.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/建造者模式.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/InsertionSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/test/TestRemoveDuplicates.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +18,72 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/TestRemoveDuplicates.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/SelectSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/InsertionSorting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+              <folding>
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,6 +151,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sky/test/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sky/test/TestRemoveDuplicates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/SelectSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/InsertionSorting.java" />
       </list>
     </option>
   </component>
@@ -110,10 +170,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="364" />
-    <option name="y" value="27" />
-    <option name="width" value="1326" />
-    <option name="height" value="940" />
+    <option name="x" value="47" />
+    <option name="y" value="25" />
+    <option name="width" value="1873" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -122,22 +182,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DataStructure_learn20190615" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure_learn20190615" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructure_learn20190615" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructure_learn20190615" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -155,11 +200,14 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sky.builder" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,15 +222,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Solution.testListNode">
+  <component name="RunManager" selected="Application.SelectSort">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sky.datastructure.sort.BubbleSort" />
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sky.datastructure.sort.SelectSort" />
       <module name="DataStructure_learn20190615" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -191,6 +239,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="visualVMId" value="424336083573650" />
+      </RunnerSettings>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -254,7 +305,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution.tttt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRemoveDuplicates.TestArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure_learn20190615" />
       <extension name="coverage">
         <pattern>
@@ -263,8 +314,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sky.test" />
-      <option name="MAIN_CLASS_NAME" value="com.sky.test.Solution" />
-      <option name="METHOD_NAME" value="tttt" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.test.TestRemoveDuplicates" />
+      <option name="METHOD_NAME" value="TestArray" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -297,19 +348,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="JUnit.Solution.tttt" />
       <item itemvalue="JUnit.Solution.numberTest" />
       <item itemvalue="JUnit.Solution.testListNode" />
       <item itemvalue="JUnit.Solution" />
+      <item itemvalue="JUnit.TestRemoveDuplicates.TestArray" />
+      <item itemvalue="Application.SelectSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectSort" />
+        <item itemvalue="JUnit.TestRemoveDuplicates.TestArray" />
         <item itemvalue="JUnit.Solution.testListNode" />
         <item itemvalue="JUnit.Solution" />
         <item itemvalue="JUnit.Solution.numberTest" />
-        <item itemvalue="JUnit.Solution.tttt" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -340,44 +391,44 @@
       <workItem from="1570500934603" duration="6955000" />
       <workItem from="1570584804202" duration="12912000" />
       <workItem from="1570698709692" duration="7844000" />
-      <workItem from="1571297766546" duration="34733000" />
+      <workItem from="1571297766546" duration="47305000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Solution_testListNode - 2019.10.18 at 17h 20m 41s.xml">
-      <configuration name="Solution.testListNode" configurationId="JUnit" />
+    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 33m 34s.xml">
+      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution_testListNode - 2019.10.18 at 17h 21m 32s.xml">
-      <configuration name="Solution.testListNode" configurationId="JUnit" />
+    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 33m 48s.xml">
+      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution_testListNode - 2019.10.18 at 17h 21m 40s.xml">
-      <configuration name="Solution.testListNode" configurationId="JUnit" />
+    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 34m 42s.xml">
+      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution_testListNode - 2019.10.18 at 17h 22m 04s.xml">
-      <configuration name="Solution.testListNode" configurationId="JUnit" />
+    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 34m 55s.xml">
+      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution_testListNode - 2019.10.18 at 17h 50m 14s.xml">
-      <configuration name="Solution.testListNode" configurationId="JUnit" />
+    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 35m 21s.xml">
+      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution_testListNode - 2019.10.18 at 18h 04m 31s.xml">
-      <configuration name="Solution.testListNode" configurationId="JUnit" />
+    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 36m 40s.xml">
+      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution_testListNode - 2019.10.18 at 18h 09m 18s.xml">
-      <configuration name="Solution.testListNode" configurationId="JUnit" />
+    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 37m 02s.xml">
+      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution_testListNode - 2019.10.18 at 18h 19m 00s.xml">
-      <configuration name="Solution.testListNode" configurationId="JUnit" />
+    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 37m 44s.xml">
+      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution_testListNode - 2019.10.18 at 18h 24m 26s.xml">
-      <configuration name="Solution.testListNode" configurationId="JUnit" />
+    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 38m 25s.xml">
+      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Solution_testListNode - 2019.10.18 at 18h 24m 21s.xml">
-      <configuration name="Solution.testListNode" configurationId="JUnit" />
+    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 38m 44s.xml">
+      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134429000" />
+    <option name="totallyTimeSpent" value="147001000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,8 +441,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="25" width="1873" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2633904" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16896743" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -407,7 +459,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287037" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298611" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33449075" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33449075" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3287037" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="11" />
@@ -502,6 +554,18 @@
           <properties />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sky/test/TestRemoveDuplicates.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/SelectSort.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -585,13 +649,6 @@
     <entry file="jar://C:/lurao/bigdata/badou/setPageage/java/jdk1.8/src.zip!/java/lang/String.java" />
     <entry file="jar://C:/lurao/bigdata/badou/setPageage/java/jdk1.8/src.zip!/java/lang/AbstractStringBuilder.java" />
     <entry file="jar://C:/lurao/bigdata/badou/setPageage/java/jdk1.8/src.zip!/java/lang/StringBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/builder/CommonRoleBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -755,16 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/array/SparseArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -780,13 +827,6 @@
             <element signature="e#82971#82972#0" expanded="true" />
             <element signature="e#83020#83021#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -875,6 +915,61 @@
             <element signature="e#1990#1991#0" expanded="true" />
             <element signature="docComment;method#mergeTwoLists1#0;class#Solution#0" />
             <element signature="method#mergeTwoLists1#0;class#Solution#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/TestRemoveDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/InsertionSorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
           </folding>
         </state>
       </provider>
