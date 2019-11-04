@@ -19,15 +19,18 @@ public class InsertionSorting {
 
     public void insertSort(int[] arr){
 
-        for(int i = 1; i < arr.length - 1; i++){
-         for(int j = i-1; j < arr.length ; j++){
-             if(arr[i] >= arr[j]){
-                 int temp = arr[i];
-                 arr[i] = arr[j];
-                 arr[j] = temp;
-                 break;
-             }
+        //外循环 无序列表
+        for(int i = 1; i < arr.length; i++){
+            //内循环 有序
+            int current = arr[i];
+            int j = 0;
+            //无序列表中的第一个数要小
+         for( j = i-1; j <= 0 && current < arr[j] ; j--){
+             arr[j+1] = arr[j]; //j+1=i   赋值给外循环
          }
+
+         arr[j+1] = current; //退出内循环 找到有序列表中的插入的位置
+
         }
 
     }

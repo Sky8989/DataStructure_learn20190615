@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ded5779-9f6e-413c-b94e-73e975e73251" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/InsertionSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/SelectSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/test/TestRemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/InsertSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/tree/BinarySortTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/test/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/test/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/test/TestNumDecodings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/InsertionSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/InsertionSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/test/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,65 +25,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/tree/BinarySortTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/TestRemoveDuplicates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="233">
+              <caret line="285" column="46" selection-start-line="285" selection-start-column="46" selection-end-line="285" selection-end-column="46" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="method#add#0;class#Node#0;class#BinarySortTreeTest#0" />
+                <element signature="method#search#0;class#Node#0;class#BinarySortTreeTest#0" />
+                <element signature="docComment;method#searchParent#0;class#Node#0;class#BinarySortTreeTest#0" />
+                <element signature="method#searchParent#0;class#Node#0;class#BinarySortTreeTest#0" />
+                <element signature="docComment;method#delNode#0;class#Node#0;class#BinarySortTreeTest#0" />
+                <element signature="method#delNode#0;class#Node#0;class#BinarySortTreeTest#0" />
+                <element signature="method#delRightTreeMin#0;class#Node#0;class#BinarySortTreeTest#0" />
+                <element signature="method#leftRotate#0;class#Node#0;class#BinarySortTreeTest#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/SelectSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/InsertionSorting.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-              <folding>
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -106,6 +77,8 @@
       <find>common</find>
       <find>parseInt</find>
       <find>romanToInt</find>
+      <find>com.sky.datastructure.tree.</find>
+      <find>BinarySearchTree</find>
     </findStrings>
     <replaceStrings>
       <replace>reveser</replace>
@@ -139,7 +112,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sky/builder/VIPRoleBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sky/builder/CommonRoleBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sky/builder/Builder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sky/test/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sky/builder/NewRole.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sky/builder/TestBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sky/builder/Role.java" />
@@ -149,11 +121,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/BubbleSort.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sky/test/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sky/test/TestRemoveDuplicates.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/InsertionSorting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sky/test/TestNumDecodings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sky/test/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sky/test/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/InsertSortTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/tree/BinarySortTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/tree/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/tree/BinarySortTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sky/test/Test.java" />
       </list>
     </option>
   </component>
@@ -170,10 +150,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="47" />
-    <option name="y" value="25" />
-    <option name="width" value="1873" />
-    <option name="height" value="1055" />
+    <option name="x" value="191" />
+    <option name="y" value="89" />
+    <option name="width" value="1590" />
+    <option name="height" value="840" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -181,15 +161,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DataStructure_learn20190615" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure_learn20190615" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure_learn20190615" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure_learn20190615" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure_learn20190615" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure_learn20190615" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure_learn20190615" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure_learn20190615" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -200,7 +208,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -222,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectSort">
+  <component name="RunManager" selected="JUnit.BinarySortTreeTest.testBinarySortTree">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -252,40 +260,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySortTreeTest.testBinarySortTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure_learn20190615" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sky.datastructure.linked.*" />
+          <option name="PATTERN" value="com.sky.datastructure.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.sky.datastructure.linked" />
-      <option name="MAIN_CLASS_NAME" value="com.sky.datastructure.linked.Solution" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution.numberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure_learn20190615" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sky.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sky.test" />
-      <option name="MAIN_CLASS_NAME" value="com.sky.test.Solution" />
-      <option name="METHOD_NAME" value="numberTest" />
+      <option name="PACKAGE_NAME" value="com.sky.datastructure.tree" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.datastructure.tree.BinarySortTreeTest" />
+      <option name="METHOD_NAME" value="testBinarySortTree" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution.testListNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertSortTest.insertSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure_learn20190615" />
       <extension name="coverage">
         <pattern>
@@ -294,18 +286,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sky.datastructure.linked" />
-      <option name="MAIN_CLASS_NAME" value="com.sky.datastructure.linked.Solution" />
-      <option name="METHOD_NAME" value="testListNode" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.datastructure.linked.InsertSortTest" />
+      <option name="METHOD_NAME" value="insertSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <RunnerSettings RunnerId="Debug with VisualVM">
-        <option name="visualVMId" value="158022826528874" />
+        <option name="visualVMId" value="163660127367831" />
       </RunnerSettings>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRemoveDuplicates.TestArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuickSort.testQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure_learn20190615" />
       <extension name="coverage">
         <pattern>
@@ -314,8 +306,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sky.test" />
-      <option name="MAIN_CLASS_NAME" value="com.sky.test.TestRemoveDuplicates" />
-      <option name="METHOD_NAME" value="TestArray" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.test.QuickSort" />
+      <option name="METHOD_NAME" value="testQuickSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShellSort.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure_learn20190615" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sky.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.test.ShellSort" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -348,19 +357,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Solution.numberTest" />
-      <item itemvalue="JUnit.Solution.testListNode" />
-      <item itemvalue="JUnit.Solution" />
-      <item itemvalue="JUnit.TestRemoveDuplicates.TestArray" />
       <item itemvalue="Application.SelectSort" />
+      <item itemvalue="JUnit.QuickSort.testQuickSort" />
+      <item itemvalue="JUnit.ShellSort.test2" />
+      <item itemvalue="JUnit.InsertSortTest.insertSort" />
+      <item itemvalue="JUnit.BinarySortTreeTest.testBinarySortTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinarySortTreeTest.testBinarySortTree" />
+        <item itemvalue="JUnit.InsertSortTest.insertSort" />
+        <item itemvalue="JUnit.ShellSort.test2" />
+        <item itemvalue="JUnit.QuickSort.testQuickSort" />
         <item itemvalue="Application.SelectSort" />
-        <item itemvalue="JUnit.TestRemoveDuplicates.TestArray" />
-        <item itemvalue="JUnit.Solution.testListNode" />
-        <item itemvalue="JUnit.Solution" />
-        <item itemvalue="JUnit.Solution.numberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -392,43 +401,47 @@
       <workItem from="1570584804202" duration="12912000" />
       <workItem from="1570698709692" duration="7844000" />
       <workItem from="1571297766546" duration="47305000" />
+      <workItem from="1571652180889" duration="4238000" />
+      <workItem from="1571726104048" duration="27603000" />
+      <workItem from="1572139948958" duration="1717000" />
+      <workItem from="1572418839111" duration="30622000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 33m 34s.xml">
-      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
+    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 09h 46m 58s.xml">
+      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 33m 48s.xml">
-      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
+    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 09h 50m 04s.xml">
+      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 34m 42s.xml">
-      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
+    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 09h 52m 35s.xml">
+      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 34m 55s.xml">
-      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
+    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 10h 05m 04s.xml">
+      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 35m 21s.xml">
-      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
+    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 10h 06m 18s.xml">
+      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 36m 40s.xml">
-      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
+    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 10h 26m 32s.xml">
+      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 37m 02s.xml">
-      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
+    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 10h 26m 52s.xml">
+      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 37m 44s.xml">
-      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
+    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 11h 19m 22s.xml">
+      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 38m 25s.xml">
-      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
+    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 11h 20m 24s.xml">
+      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRemoveDuplicates_TestArray - 2019.10.21 at 10h 38m 44s.xml">
-      <configuration name="TestRemoveDuplicates.TestArray" configurationId="JUnit" />
+    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 11h 20m 28s.xml">
+      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147001000" />
+    <option name="totallyTimeSpent" value="211181000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,10 +454,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="25" width="1873" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16896743" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2689122" />
+      <window_info id="Structure" order="1" weight="0.24958587" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -453,13 +465,13 @@
       <window_info id="Alibaba Cloud Explorer" order="7" weight="0.23191607" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298611" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27546296" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2997685" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43055555" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287037" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298611" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33449075" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22222222" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3287037" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="11" />
@@ -480,6 +492,7 @@
       <window_info anchor="right" id="Maven" order="9" />
       <window_info anchor="right" id="Mybatis datasource" order="10" side_tool="true" />
       <window_info anchor="right" id="Alibaba Log Console" order="11" />
+      <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32965213" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,14 +579,33 @@
           <properties />
           <option name="timeStamp" value="53" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sky/test/QuickSort.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sky/test/ShellSort.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/InsertSortTest.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/tree/BinarySortTreeTest.java</url>
+          <line>322</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="head" />
-        <watch expression="l2.next" />
-        <watch expression="mergeTwoLists2(l1.next, l2)" />
-      </configuration>
       <configuration name="Application">
         <watch expression="str.substring(j+1)" />
       </configuration>
@@ -583,24 +615,12 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataStructure_learn20190615$QuickSort_testQuickSort.ic" NAME="QuickSort.testQuickSort Coverage Results" MODIFIED="1571738230242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sky.test.*</FILTER>
+    </SUITE>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/HeroNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/lurao/bigdata/badou/setPageage/java/jdk1.8/src.zip!/java/io/PrintStream.java" />
-    <entry file="jar://C:/lurao/bigdata/badou/setPageage/java/jdk1.8/src.zip!/java/util/AbstractList.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/DoubleLinkedDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/stack/MiGoDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="637">
@@ -628,13 +648,6 @@
             <element signature="e#4826#4827#0" />
             <element signature="e#4914#4915#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/queue/CircleArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="171" column="39" selection-start-line="171" selection-start-column="39" selection-end-line="171" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -775,28 +788,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="159" column="46" selection-start-line="159" selection-start-column="46" selection-end-line="159" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#reverse#0;class#Solution#0" />
-            <element signature="method#isPalindrome#0;class#Solution#0" />
-            <element signature="method#isPalindrome1#0;class#Solution#0" />
-            <element signature="e#13509#13525#0" expanded="true" />
-            <element signature="e#13700#13708#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="jar:///usr/lib/jdk/jdk1.8.0_201/src.zip!/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -827,13 +825,6 @@
             <element signature="e#82971#82972#0" expanded="true" />
             <element signature="e#83020#83021#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
@@ -897,13 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2397">
@@ -922,10 +906,45 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/A9.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/queue/CircleArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2822">
+          <caret line="171" column="39" selection-start-line="171" selection-start-column="39" selection-end-line="171" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/TestNumDecodings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -939,38 +958,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/SelectSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="568">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="80">
+          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/SelectSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        <state relative-caret-position="-447">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/如何掌握Amazon SEO并将产品提升到2019年的搜索排名.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding>
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/InsertSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="34" column="65" lean-forward="true" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="159" column="46" selection-start-line="159" selection-start-column="46" selection-end-line="159" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#reverse#0;class#Solution#0" />
+            <element signature="method#isPalindrome#0;class#Solution#0" />
+            <element signature="method#isPalindrome1#0;class#Solution#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/InsertionSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="148">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
             <element signature="e#308#309#0" expanded="true" />
             <element signature="e#355#356#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="method#add#0;class#Node#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/tree/BinarySortTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="285" column="46" selection-start-line="285" selection-start-column="46" selection-end-line="285" selection-end-column="46" />
+          <folding>
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="method#add#0;class#Node#0;class#BinarySortTreeTest#0" />
+            <element signature="method#search#0;class#Node#0;class#BinarySortTreeTest#0" />
+            <element signature="docComment;method#searchParent#0;class#Node#0;class#BinarySortTreeTest#0" />
+            <element signature="method#searchParent#0;class#Node#0;class#BinarySortTreeTest#0" />
+            <element signature="docComment;method#delNode#0;class#Node#0;class#BinarySortTreeTest#0" />
+            <element signature="method#delNode#0;class#Node#0;class#BinarySortTreeTest#0" />
+            <element signature="method#delRightTreeMin#0;class#Node#0;class#BinarySortTreeTest#0" />
+            <element signature="method#leftRotate#0;class#Node#0;class#BinarySortTreeTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
