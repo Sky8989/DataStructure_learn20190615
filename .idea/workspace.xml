@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ded5779-9f6e-413c-b94e-73e975e73251" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/InsertSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/tree/BinarySortTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/test/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/test/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sky/test/TestNumDecodings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/linked/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/InsertionSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/datastructure/sort/InsertionSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/数据库优化之索引.pptx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -215,6 +208,7 @@
       <recent name="com.sky.builder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -404,7 +398,7 @@
       <workItem from="1571652180889" duration="4238000" />
       <workItem from="1571726104048" duration="27603000" />
       <workItem from="1572139948958" duration="1717000" />
-      <workItem from="1572418839111" duration="30622000" />
+      <workItem from="1572418839111" duration="32572000" />
     </task>
     <servers />
   </component>
@@ -441,7 +435,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211181000" />
+    <option name="totallyTimeSpent" value="213131000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,13 +459,13 @@
       <window_info id="Alibaba Cloud Explorer" order="7" weight="0.23191607" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298611" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2997685" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2997685" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43055555" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287037" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298611" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22222222" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22222222" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3287037" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="11" />
