@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ded5779-9f6e-413c-b94e-73e975e73251" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/数据库优化之索引.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sky/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sky/test/TestClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +20,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/tree/BinarySortTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
+            <state relative-caret-position="1989">
               <caret line="285" column="46" selection-start-line="285" selection-start-column="46" selection-end-line="285" selection-end-column="46" />
               <folding>
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
                 <element signature="method#add#0;class#Node#0;class#BinarySortTreeTest#0" />
                 <element signature="method#search#0;class#Node#0;class#BinarySortTreeTest#0" />
                 <element signature="docComment;method#searchParent#0;class#Node#0;class#BinarySortTreeTest#0" />
@@ -39,12 +37,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="374">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="29" column="19" selection-start-line="23" selection-start-column="4" selection-end-line="29" selection-end-column="19" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -127,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/tree/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sky/datastructure/tree/BinarySortTreeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sky/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sky/test/TestClass.java" />
       </list>
     </option>
   </component>
@@ -143,10 +155,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="191" />
-    <option name="y" value="89" />
-    <option name="width" value="1590" />
-    <option name="height" value="840" />
+    <option name="x" value="47" />
+    <option name="y" value="25" />
+    <option name="width" value="1873" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,6 +185,30 @@
               <item name="DataStructure_learn20190615" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure_learn20190615" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure_learn20190615" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure_learn20190615" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure_learn20190615" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructure_learn20190615" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure_learn20190615" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sky" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructure_learn20190615" type="b2602c69:ProjectViewProjectNode" />
@@ -224,26 +260,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySortTreeTest.testBinarySortTree">
+  <component name="RunManager" selected="JUnit.TestClass.test1">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sky.datastructure.sort.SelectSort" />
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sky.test.TestClass" />
       <module name="DataStructure_learn20190615" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sky.datastructure.sort.*" />
+          <option name="PATTERN" value="com.sky.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <RunnerSettings RunnerId="Debug with VisualVM">
-        <option name="visualVMId" value="424336083573650" />
-      </RunnerSettings>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -291,23 +324,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort.testQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure_learn20190615" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sky.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sky.test" />
-      <option name="MAIN_CLASS_NAME" value="com.sky.test.QuickSort" />
-      <option name="METHOD_NAME" value="testQuickSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShellSort.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure_learn20190615" />
       <extension name="coverage">
@@ -319,6 +335,23 @@
       <option name="PACKAGE_NAME" value="com.sky.test" />
       <option name="MAIN_CLASS_NAME" value="com.sky.test.ShellSort" />
       <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure_learn20190615" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sky.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sky.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sky.test.TestClass" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -351,19 +384,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SelectSort" />
-      <item itemvalue="JUnit.QuickSort.testQuickSort" />
       <item itemvalue="JUnit.ShellSort.test2" />
       <item itemvalue="JUnit.InsertSortTest.insertSort" />
       <item itemvalue="JUnit.BinarySortTreeTest.testBinarySortTree" />
+      <item itemvalue="Application.TestClass" />
+      <item itemvalue="JUnit.TestClass.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestClass.test1" />
+        <item itemvalue="Application.TestClass" />
         <item itemvalue="JUnit.BinarySortTreeTest.testBinarySortTree" />
         <item itemvalue="JUnit.InsertSortTest.insertSort" />
         <item itemvalue="JUnit.ShellSort.test2" />
-        <item itemvalue="JUnit.QuickSort.testQuickSort" />
-        <item itemvalue="Application.SelectSort" />
       </list>
     </recent_temporary>
   </component>
@@ -398,44 +431,45 @@
       <workItem from="1571652180889" duration="4238000" />
       <workItem from="1571726104048" duration="27603000" />
       <workItem from="1572139948958" duration="1717000" />
-      <workItem from="1572418839111" duration="32572000" />
+      <workItem from="1572418839111" duration="39239000" />
+      <workItem from="1573721006462" duration="900000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 09h 46m 58s.xml">
-      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
+    <history-entry file="TestClass_test1 - 2019.11.14 at 16h 46m 45s.xml">
+      <configuration name="TestClass.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 09h 50m 04s.xml">
-      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
+    <history-entry file="TestClass_test1 - 2019.11.14 at 16h 46m 53s.xml">
+      <configuration name="TestClass.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 09h 52m 35s.xml">
-      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
+    <history-entry file="TestClass_test1 - 2019.11.14 at 16h 47m 02s.xml">
+      <configuration name="TestClass.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 10h 05m 04s.xml">
-      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
+    <history-entry file="TestClass_test1 - 2019.11.14 at 16h 47m 18s.xml">
+      <configuration name="TestClass.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 10h 06m 18s.xml">
-      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
+    <history-entry file="TestClass_test1 - 2019.11.14 at 16h 47m 28s.xml">
+      <configuration name="TestClass.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 10h 26m 32s.xml">
-      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
+    <history-entry file="TestClass_test1 - 2019.11.14 at 16h 47m 34s.xml">
+      <configuration name="TestClass.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 10h 26m 52s.xml">
-      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
+    <history-entry file="TestClass_test1 - 2019.11.14 at 16h 48m 02s.xml">
+      <configuration name="TestClass.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 11h 19m 22s.xml">
-      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
+    <history-entry file="TestClass_test1 - 2019.11.14 at 16h 48m 11s.xml">
+      <configuration name="TestClass.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 11h 20m 24s.xml">
-      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
+    <history-entry file="TestClass_test1 - 2019.11.14 at 16h 48m 19s.xml">
+      <configuration name="TestClass.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySortTreeTest_testBinarySortTree - 2019.10.31 at 11h 20m 28s.xml">
-      <configuration name="BinarySortTreeTest.testBinarySortTree" configurationId="JUnit" />
+    <history-entry file="TestClass_test1 - 2019.11.14 at 16h 48m 29s.xml">
+      <configuration name="TestClass.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213131000" />
+    <option name="totallyTimeSpent" value="220698000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,8 +482,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="25" width="1873" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2689122" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27332965" />
       <window_info id="Structure" order="1" weight="0.24958587" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -459,13 +494,13 @@
       <window_info id="Alibaba Cloud Explorer" order="7" weight="0.23191607" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298611" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2997685" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35416666" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43055555" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287037" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298611" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22222222" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22569445" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3287037" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="11" />
@@ -782,14 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="jar:///usr/lib/jdk/jdk1.8.0_201/src.zip!/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6154">
@@ -1036,23 +1063,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/tree/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <element signature="method#add#0;class#Node#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/tree/Node.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/datastructure/tree/BinarySortTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
+        <state relative-caret-position="1989">
           <caret line="285" column="46" selection-start-line="285" selection-start-column="46" selection-end-line="285" selection-end-column="46" />
           <folding>
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
             <element signature="method#add#0;class#Node#0;class#BinarySortTreeTest#0" />
             <element signature="method#search#0;class#Node#0;class#BinarySortTreeTest#0" />
             <element signature="docComment;method#searchParent#0;class#Node#0;class#BinarySortTreeTest#0" />
@@ -1065,10 +1081,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/Test.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="444">
+          <caret line="29" column="19" selection-start-line="23" selection-start-column="4" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sky/test/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
