@@ -3,12 +3,14 @@ package com.sky.test;
 import org.junit.Test;
 
 import java.util.HashMap;
-import java.util.LinkedList;
+
 
 public class TestClass {
 
     public static void main(String[] args) {
         HashMap<Integer,String> map = new HashMap<>(64);
+        String str   = "";
+        str.indexOf("aaa");
         map.put(1,"a");
         map.put(2,"b");
         map.put(3,"c");
@@ -36,8 +38,60 @@ public class TestClass {
 
 
 
+       // map.containsKey()
+
+
+
     }
 
+    @Test
+    public void testStr(){
+        String str = "BBC ABCDAB ABCDABCDABDE";
+
+       int i  = str.indexOf("ABCDABD");
+
+        System.out.println(i);
+
+    }
+
+
+    @Test
+    public void t1(){
+        int[] arr = new int[]{3,2,1,4};
+//        int[] arr = new int[]{2};
+//        int[] arr = new int[]{2,2};
+//        int[] arr = new int[]{3,2,2,3};
+//        int[] arr = new int[]{0,1,2,2,3,0,4,2};
+
+
+       int result =  removeElement(arr,3);
+
+       for(int i = 0; i < result ; i++){
+           System.out.println(arr[i]);
+       }
+    }
+
+    public int removeElement(int[] nums, int val) {
+        int valIndex = 0, index = 0;
+
+
+        while(index < nums.length){
+            int num = nums[index];
+
+            //交换标识 同时
+            if( num != val){
+
+                int temp = nums[valIndex];
+                nums[valIndex] = num;
+                nums[index] = temp;
+
+                 valIndex++;
+            }
+            index++;
+        }
+
+        return valIndex ;
+    }
 
 
     @Test
