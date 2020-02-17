@@ -36,6 +36,7 @@ public class Solution {
         Map<Integer,Integer> map = new HashMap<Integer, Integer>();
         for(int i = 0; i < nums.length-1; i++){
                 Integer result =  map.get(target-nums[i]);
+
                 if(result == null){
                     map.put(nums[i],i);
                 }else {

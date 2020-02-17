@@ -97,12 +97,17 @@ public class TestClass {
     @Test
     public void test1(){
 
-        for(int i = 1; i < 1000; i++){
-            if(128 % i == 2){
-                System.out.println(" i = " + i);
-            }
-        }
+
+        //System.out.println(isPalindrome(20200202));
+        System.out.println(123/100);
+        System.out.println(123%100);
+        System.out.println(23/10);
+
 
     }
+
+
+
+
 
 }

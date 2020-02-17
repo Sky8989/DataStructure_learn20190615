@@ -50,7 +50,7 @@ public class AddTwoNumbers {
 
     }
 
-  //  @Test
+  //  @TestRemoveNthFromEnd
     public  void testadd(){
         ListNode l1 = new ListNode(1);
 
@@ -253,7 +253,7 @@ public class AddTwoNumbers {
       return  resultListNode.next;
   }
 
-//  @Test
+//  @TestRemoveNthFromEnd
 //    public void testchu(){
 //        int n1 = 807;
 //
