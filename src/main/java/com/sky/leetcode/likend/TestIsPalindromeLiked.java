@@ -149,6 +149,7 @@ public class TestIsPalindromeLiked {
 //        int[] arr = new int[]{1,2};
 //        int[] arr = new int[]{1};
         int[] arr = new int[]{1,2,2,1};
+//        int[] arr = new int[]{1,2};
 
         ListNode l1 = createListNode(arr);
 
@@ -159,6 +160,7 @@ public class TestIsPalindromeLiked {
 
         printLikend(l1);
     }
+
 
     /**
      * 链表反转

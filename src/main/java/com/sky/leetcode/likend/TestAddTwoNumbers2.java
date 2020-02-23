@@ -97,6 +97,68 @@ public class TestAddTwoNumbers2 {
        return dummyHead.next;
     }
 
+
+    /**
+     * 递归法 模拟栈
+     * @param l1
+     * @param l2
+     * @return
+     */
+    public ListNode addTwoNumbers1(ListNode l1, ListNode l2) {
+        ListNode dummyHead = new ListNode(1);
+        int n1 = getLen(l1);
+        int n2 = getLen(l2);
+
+        dummyHead.next = n1 > n2 ? helper(l1,l2,n1-n2) : helper(l2, l1, n2-n1);
+
+        if(dummyHead.next.val > 9){
+            dummyHead.next.val %= 10;
+            return dummyHead;
+        }
+
+        return dummyHead.next;
+    }
+
+    /**
+     * 递归方法 模拟栈进行操作 返回求和后的链表
+     * @param l1 默认传长度较长的链表 也可能和 l2长度一样
+     * @param l2
+     * @param diff l1,l2链表长度差值
+     * @return
+     */
+    public ListNode helper(ListNode l1,ListNode l2,int diff){
+        if(l1 == null) return l1;
+        // 存结果
+        ListNode left = (diff == 0) ? new ListNode(l1.val + l2.val) : new ListNode(l1.val);
+        //递归
+        ListNode right = (diff == 0) ? helper(l1.next,l2.next,0) : helper(l1.next,l2,diff - 1);
+
+        if(right != null && right.val > 9){
+            right.val %= 10;
+            left.val++;
+        }
+        left.next = right;
+        return left;
+    }
+
+    /**
+     * 获取链表长度
+     * @param head
+     * @return
+     */
+    public int getLen(ListNode head){
+        int len = 0;
+        ListNode curr = head;
+
+        while (curr != null){
+            curr = curr.next;
+            len++;
+        }
+
+        return len;
+    }
+
+
     @Test
     public void testAdd(){
         int[] a1 = new int[]{7,2,4,3};
@@ -109,7 +171,7 @@ public class TestAddTwoNumbers2 {
         printLikend(l1);
         printLikend(l2);
 
-        ListNode res = addTwoNumbers(l1,l2);
+        ListNode res = addTwoNumbers1(l1,l2);
         System.out.println("相加后返回的链表结构");
 
         printLikend(res);

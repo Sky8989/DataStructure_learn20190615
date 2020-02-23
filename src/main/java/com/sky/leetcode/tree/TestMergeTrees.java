@@ -92,6 +92,7 @@ public class TestMergeTrees {
     /**
      * 迭代法  前序遍历
      * 需要一个栈 栈中存放两个TreeNode 栈的约束类型为TreeNode[]
+     * 将t2的数据合并到t1
      * @param t1
      * @param t2
      * @return
@@ -104,28 +105,31 @@ public class TestMergeTrees {
 
         Stack<TreeNode[]> stack1 = new Stack<>();
 
-        stack1.add(new TreeNode[]{t1,t2});
+        stack1.push(new TreeNode[]{t1,t2});
 
         while (!stack1.isEmpty()){
             TreeNode[] t = stack1.pop();
-            if(t[0] == null && t[1] == null) continue;
+            /**
+             * 当 t[1] == null时，t[0] 不需要进行操作
+             */
+            if( t[1] == null) continue;
 
-            int r = t[1] == null ? 0 : t[1].val;
-            //根
-            t[0].val += r;
+           //根部数据进行合并
+            t[0].val += t[1].val;
 
             //左
             if(t[0].left == null){
-                t[0].left = r == 0 ? null : t[1].left;
+                t[0].left = t[1].left;
             }else{
-                stack1.add(new TreeNode[]{t[0].left,t[1].left});
+                //当t[0].left 不为空加入到栈中 出栈是进行合并数据
+                stack1.push(new TreeNode[]{t[0].left,t[1].left});
             }
 
             //右
             if(t[0].right == null){
-                t[0].right = r == 0 ? null : t[1].right;
+                t[0].right =  t[1].right;
             }else{
-                stack1.add(new TreeNode[]{t[0].right,t[1].right});
+                stack1.push(new TreeNode[]{t[0].right,t[1].right});
             }
 
         }
