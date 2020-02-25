@@ -2,6 +2,8 @@ package com.sky.leetcode.tree;
 
 import org.junit.Test;
 
+import java.util.Stack;
+
 /**
  * 给定一个二叉树，找出其最大深度。
  *
@@ -42,6 +44,48 @@ public class TreeMaxDepth {
         return  root == null ? 0 : Math.max(maxDepth(root.left),maxDepth(root.right)) + 1;
     }
 
+    /**
+     * 迭代法  有两个栈一个存节点, 一个存节点对应的深度
+     * @param root
+     * @return
+     */
+    public int maxDepth1(TreeNode root){
+        if(root == null) return 0;
+
+        Stack<TreeNode> node = new Stack<>();
+        Stack<Integer> depth = new Stack<>();
+
+        int max_depth = 0;
+
+        node.push(root);
+        depth.push(1);
+
+        while (!node.isEmpty()){
+            TreeNode curr = node.pop();
+            int curr_depth = depth.pop();
+
+            //到达叶子节点进行判断
+            if(curr.left == null && curr.right == null) {
+                max_depth = Math.max(max_depth,curr_depth);
+                continue;
+            }
+
+            if(curr.left != null){
+                node.push(curr.left);
+                depth.push(curr_depth+1);
+            }
+
+            if(curr.right != null){
+                node.push(curr.right);
+                depth.push(curr_depth+1);
+            }
+        }
+        return max_depth;
+    }
+
+
+
+
     @Test
     public void testMaxDepth(){
         int[] arr = new int[]{3,9,20,15,7};
@@ -53,7 +97,7 @@ public class TreeMaxDepth {
         tree.right.left = new TreeNode(arr[3]);
         tree.right.right = new TreeNode(arr[4]);
 
-        int resNum = maxDepth(tree);
+        int resNum = maxDepth1(tree);
 
         System.out.println("树的高度为：" + resNum);
     }

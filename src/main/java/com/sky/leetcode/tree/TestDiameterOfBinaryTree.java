@@ -2,6 +2,9 @@ package com.sky.leetcode.tree;
 
 import org.junit.Test;
 
+import java.util.Map;
+import java.util.Stack;
+
 /**
  * 求二叉树的直径
  * 给定一棵二叉树，你需要计算它的直径长度。一棵二叉树的直径长度是任意两个结点路径长度中的最大值。这条路径可能穿过根结点。
@@ -43,6 +46,7 @@ public class TestDiameterOfBinaryTree {
     private int getDepth(TreeNode root){
         if(root == null) return 0;
 
+        //分治
         int l = getDepth(root.left);
         int r = getDepth(root.right);
 
@@ -51,6 +55,87 @@ public class TestDiameterOfBinaryTree {
         return Math.max(l,r) + 1;
 
     }
+
+    /**
+     * 迭代法 求树的直径 任意两个节点的最大距离
+     * 需要当前节点的 左子 和 右子 分别求深度 相加 找到最大的
+     * @param root
+     * @return
+     */
+    public int diameterOfBinaryTree1(TreeNode root) {
+        if(root == null) return 0;
+        Stack<TreeNode> node = new Stack<>();
+
+        node.push(root);
+
+        int max_depth = 0;
+
+        while (!node.isEmpty()){
+            TreeNode curr = node.pop();
+
+            if(curr.left == null && curr.right == null) continue;
+            /**
+             * 左子树 右子树 分别求深度
+             */
+            int left_depth = maxDepth(curr.left);
+            int right_depth = maxDepth(curr.right);
+
+            max_depth = Math.max(max_depth, (left_depth + right_depth));
+
+             if(curr.left != null)
+             node.push(curr.left);
+
+             if(curr.right != null)
+             node.push(curr.right);
+
+
+        }
+
+        return max_depth;
+
+    }
+
+    /**
+     * 迭代求最大深度
+     * @param root
+     * @return
+     */
+    private int maxDepth(TreeNode root){
+        if(root == null) return 0;
+
+        Stack<TreeNode> node = new Stack<>();
+        Stack<Integer> depth = new Stack<>();
+
+        int max_depth = 0;
+        node.push(root);
+        depth.push(1);
+
+        while (!node.isEmpty()){
+            TreeNode curr = node.pop();
+            int curr_depth = depth.pop();
+
+            if(curr.left == null && curr.right == null){
+                max_depth =Math.max(curr_depth,max_depth);
+                continue;
+            }
+
+            if(curr.left != null){
+                node.push(curr.left);
+                depth.push(curr_depth+1);
+            }
+
+            if(curr.right != null){
+                node.push(curr.right);
+                depth.push(curr_depth+1);
+            }
+
+        }
+        return max_depth;
+    }
+
+
+
+
 
     @Test
     public void testDepth(){
@@ -61,7 +146,7 @@ public class TestDiameterOfBinaryTree {
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
 
-        int len = diameterOfBinaryTree(root);
+        int len = diameterOfBinaryTree1(root);
         System.out.println("二叉树的直径为 = " + len);
 
     }
