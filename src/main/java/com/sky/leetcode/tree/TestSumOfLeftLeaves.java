@@ -1,5 +1,7 @@
 package com.sky.leetcode.tree;
 
+import java.util.Stack;
+
 /**
  * 计算给定二叉树的所有左叶子之和。
  *
@@ -42,7 +44,7 @@ public class TestSumOfLeftLeaves {
      */
     public int sumOfLeftLeaves(TreeNode root) {
         if(root == null) return 0;
-        if(root.left == null && root.right == null) return root.val;
+        if(root.left == null && root.right == null) return 0;
 
         return helper(root.left,true) + helper(root.right,false);
     }
@@ -55,4 +57,54 @@ public class TestSumOfLeftLeaves {
         return helper(root.left,true) +  helper(root.right,false);
 
     }
+
+    /**
+     * 迭代法
+     * @param root
+     * @return
+     */
+    public int sumOfLeftLeavesNR(TreeNode root) {
+        if(root == null) return 0;
+        if(root.left == null && root.right == null) return 0;
+
+        return helperNR(root);
+
+    }
+
+    /**
+     * 迭代法 求当前树下的所有左叶子值的和
+     * @param root
+     * @return
+     */
+    private int helperNR(TreeNode root) {
+        Stack<TreeNode> node = new Stack<>();
+        Stack<Boolean>  isLeft = new Stack<>();
+
+        int sum = 0;
+
+        node.push(root);
+        isLeft.push(false);
+
+        while (!node.isEmpty()){
+            TreeNode curr = node.pop();
+            boolean left = isLeft.pop();
+
+            if(left && curr.left == null && curr.right == null) sum+= curr.val;
+
+
+            if(curr.left != null){
+                node.push(curr.left);
+                isLeft.push(true);
+            }
+
+            if(curr.right != null){
+                node.push(curr.right);
+                isLeft.push(false);
+            }
+        }
+
+        return sum;
+
+    }
+
 }

@@ -2,6 +2,8 @@ package com.sky.leetcode.tree;
 
 import org.junit.Test;
 
+import java.util.Stack;
+
 /**
  * 翻转一棵二叉树。
  *
@@ -64,6 +66,26 @@ public class TestInvertTree {
         return root;
     }
 
+    //迭代法
+    public TreeNode invertTreeNR(TreeNode root){
+        if(root == null) return root;
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+
+        while(!stack.isEmpty()){
+            TreeNode curr = stack.pop();
+
+            TreeNode left = curr.left;
+            curr.left = curr.right;
+            curr.right = left;
+
+            if(curr.left != null) stack.push(curr.left);
+            if(curr.right != null) stack.push(curr.right);
+
+        }
+        return root;
+    }
+
     @Test
     public void  testReverse(){
         int[] arr = new int[]{4,2,7,1,3,6,9};
@@ -76,13 +98,24 @@ public class TestInvertTree {
         root.right.left = new TreeNode(arr[5]);
         root.right.right = new TreeNode(arr[6]);
 
-        TreeNode res = invertTree(root);
+//        TreeNode res = invertTree(root);
+        System.out.println("===初始化" );
+        System.out.println(root);
+        TreeNode res = invertTreeNR(root);
 
         System.out.println("结果");
 
         System.out.println(res);
     }
-    
+
+
+    public int pathSum(TreeNode root, int sum) {
+        if(root == null) return 0;
+
+
+
+        return pathSum(root.left,sum) + pathSum(root.right,sum);
+    }
     
 
 }

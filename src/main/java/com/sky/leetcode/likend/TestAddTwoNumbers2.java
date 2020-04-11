@@ -159,26 +159,37 @@ public class TestAddTwoNumbers2 {
     }
 
 
+
+
+
     @Test
     public void testAdd(){
-        int[] a1 = new int[]{7,2,4,3};
-        int[] a2 = new int[]{5,6,4};
+        int[] a1 = new int[]{5};
+       // int[] a1 = new int[]{7,2,4,3};
+        int[] a2 = new int[]{5};
+       // int[] a2 = new int[]{5,6,4};
 
-        ListNode l1 = createListNode(a1);
-        ListNode l2 = createListNode(a2);
+        System.out.println( 10 / 10);
+        System.out.println( 1 % 10);
 
-        System.out.println("创建成功后的链表结构");
-        printLikend(l1);
-        printLikend(l2);
-
-        ListNode res = addTwoNumbers1(l1,l2);
-        System.out.println("相加后返回的链表结构");
-
-        printLikend(res);
-
-        System.out.println("之前传入的链表结构");
-        printLikend(l1);
-        printLikend(l2);
+//        ListNode l1 = createListNode(a1);
+//        ListNode l2 = createListNode(a2);
+//
+//        System.out.println("创建成功后的链表结构");
+//        printLikend(l1);
+//        printLikend(l2);
+//
+//        ListNode res = addTwoNumbersx(l1,l2);
+//        System.out.println("相加后返回的链表结构");
+//
+//        printLikend(res);
+//
+//        System.out.println("之前传入的链表结构");
+//        printLikend(l1);
+//        printLikend(l2);
 
     }
+
+
+
 }

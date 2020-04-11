@@ -1,7 +1,10 @@
 package com.sky.leetcode.tree;
 
+import javafx.util.Pair;
 import org.junit.Test;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -83,7 +86,31 @@ public class TreeMaxDepth {
         return max_depth;
     }
 
+    /**
+     * 使用辅助类 队列
+     * @param root
+     * @return
+     */
+   public int maxDepthQueue(TreeNode root){
+       if(root == null) return 0;
+       Queue<Pair<TreeNode, Integer>> stack = new LinkedList<>();
+       stack.add(new Pair<>(root,1));
+       int maxLen = 0;
+       Pair<TreeNode, Integer> pair = null;
+       while(!stack.isEmpty()){
 
+           pair = stack.poll();
+           TreeNode currNode = pair.getKey();
+           Integer  curr_depth = pair.getValue();
+
+           maxLen = Math.max(maxLen,curr_depth);
+
+           if(currNode.left != null)stack.add(new Pair<>(currNode.left,curr_depth+1));
+
+           if(currNode.right != null)stack.add(new Pair<>(currNode.right,curr_depth+1));
+       }
+       return maxLen;
+   }
 
 
     @Test
@@ -97,7 +124,7 @@ public class TreeMaxDepth {
         tree.right.left = new TreeNode(arr[3]);
         tree.right.right = new TreeNode(arr[4]);
 
-        int resNum = maxDepth1(tree);
+        int resNum = maxDepthQueue(tree);
 
         System.out.println("树的高度为：" + resNum);
     }

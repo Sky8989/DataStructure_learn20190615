@@ -169,14 +169,19 @@ public class TestMergeTwoLists {
             }
         }
 
+        //最后防止两个链表长度不一样进行判断是否有一个链表不为null
+        curr.next = t1 == null ? t2 : t1;
+
         return dummyHead.next;
     }
 
 
     /**
      * 递归法
-     * @param l1
-     * @param l2
+     * @param l1    1->2->4
+     * @param l2   1->3->4
+     *
+     *
      * @return
      * 弊端 破坏了l1,l2 链表的结构
      */
@@ -185,7 +190,9 @@ public class TestMergeTwoLists {
         if(l2 == null) return l1;
 
 
+        //比较大小
         if(l1.val > l2.val){
+            //小的值往后移,并将迭代的结果 返回给当前小的值 的next节点
             l2.next = mergeTwoLists2(l1,l2.next);
             return l2;
         }else {
@@ -207,7 +214,7 @@ public class TestMergeTwoLists {
        printLikend(l1);
        printLikend(l2);
 
-       ListNode r1 = mergeTwoLists2(l1,l2);
+       ListNode r1 = mergeTwoLists(l1,l2);
 
         System.out.println("合并后链表的结构");
 

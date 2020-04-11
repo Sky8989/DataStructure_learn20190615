@@ -134,20 +134,20 @@ public class TestReverseList {
      * @return
      */
     public ListNode reverseList1(ListNode head){
-        if(head == null || head.next == null) return head;
+        if(head == null || head.next == null) return head;  // head.next = 5->null 返回
 
         //最后一个节点
-        ListNode res = reverseList1(head.next);
+        ListNode res = reverseList1(head.next); // res = 5-> null
         /**
          * 链表成环
          * 假设 最开始 head = 1->2->3->4->5，最后一次递归时， res = 5 head的结构为 4->5->null
          * 通过 head.next.next = head;操作   4->5->4->5 成环 将head.next 指向 head  4->5  变成 5->4 (res)  head(4->head)
          */
-        head.next.next = head;
+        head.next.next = head;  //res = 变成 head.next.next  == 5->null ->5-4->...
         /**
          * 防止链表循环，需要将head.next设置为空   4->null->5->4 此时返回的res为4
          */
-        head.next = null;
+        head.next = null; //   res =  head.next = null == 5->4->null   res
        return res;
 
     }
@@ -197,7 +197,8 @@ public class TestReverseList {
         System.out.println("创建完链表");
         printLikend(l1);
 
-       ListNode r1 =  reverseListNet(l1);
+//       ListNode r1 =  reverseListNet(l1);
+       ListNode r1 =  reverseList1(l1);
        printLikend(l1);
         System.out.println("反转后的链表");
        printLikend(r1);

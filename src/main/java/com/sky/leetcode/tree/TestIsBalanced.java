@@ -141,45 +141,48 @@ public class TestIsBalanced {
      * @param root
      * @return
      */
+//    private int getHeight(TreeNode root){
+//        if(root == null) return 0;
+//        if(root.left == null && root.right == null) return 1;
+//
+//        Stack<TreeNode> node = new Stack<>();
+//        Stack<Integer> height = new Stack<>();
+//
+//        int max_height = 0;
+//
+//        node.push(root);
+//        height.push(1);
+//
+//
+//        while (!node.isEmpty()){
+//            TreeNode curr = node.pop();
+//            int curr_height = height.pop();
+//
+//            if(curr.left == null && curr.right == null){
+//                max_height = Math.max(max_height,curr_height);
+//                continue;
+//            }
+//
+//            if(curr.left != null){
+//                node.push(curr.left);
+//                height.push(curr_height + 1);
+//            }
+//
+//            if(curr.right != null){
+//                node.push(curr.right);
+//                height.push(curr_height + 1);
+//            }
+//
+//        }
+//
+//        return max_height;
+//
+//    }
+
     private int getHeight(TreeNode root){
-        if(root == null) return 0;
-        if(root.left == null && root.right == null) return 1;
-
-        Stack<TreeNode> node = new Stack<>();
-        Stack<Integer> height = new Stack<>();
-
-        int max_height = 0;
-
-        node.push(root);
-        height.push(1);
-
-
-        while (!node.isEmpty()){
-            TreeNode curr = node.pop();
-            int curr_height = height.pop();
-
-            if(curr.left == null && curr.right == null){
-                max_height = Math.max(max_height,curr_height);
-                continue;
-            }
-
-            if(curr.left != null){
-                node.push(curr.left);
-                height.push(curr_height + 1);
-            }
-
-            if(curr.right != null){
-                node.push(curr.right);
-                height.push(curr_height + 1);
-            }
-
-        }
-
-        return max_height;
-
+        if (root == null) return 0;
+        return Math.max(getHeight(root.left), getHeight(root.right)) + 1;
     }
-
-
 
 
     @Test
@@ -197,19 +200,18 @@ public class TestIsBalanced {
 
         TreeNode tree = new TreeNode(1);
         tree.left = new TreeNode(2);
-        tree.right = new TreeNode(2);
-
         tree.left.left = new TreeNode(3);
-        tree.left.right = new TreeNode(3);
-
         tree.left.left.left = new TreeNode(4);
-        tree.left.left.right = new TreeNode(4);
+
+        tree.right = new TreeNode(2);
+        tree.right.right = new TreeNode(3);
+        tree.right.right.right = new TreeNode(4);
         System.out.println(tree);
 
         System.out.println("getHeight = " + getHeight(tree));
-//        boolean flag = isBalancedNR(tree);
+        boolean flag = isBalancedNR(tree);
 //
-//        System.out.println("是否为平衡树：" + flag);
+        System.out.println("是否为平衡树：" + flag);
     }
 
     /**

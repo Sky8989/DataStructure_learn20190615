@@ -98,6 +98,7 @@ public class TestRemoveNthFromEnd {
      当删除了倒数第二个节点后，链表变为 1->2->3->5.
      */
     public ListNode removeNthFromEndPro(ListNode head, int n){
+        if(head == null || (n == 1 && head.next == null)) return null;
         /**
          * 分析： 找到链表倒数第n个位置的节点进行删除，
          * 1：可以使用快慢指针 让两个指针的距离保持为n
@@ -105,7 +106,7 @@ public class TestRemoveNthFromEnd {
         ListNode dummyHead = new ListNode(0);
         dummyHead.next = head;
 
-        ListNode fast = head,slow = head;
+        ListNode fast = dummyHead,slow = dummyHead;
 
         for(int i = 0; i <= n; i++){
             fast = fast.next;
@@ -121,6 +122,21 @@ public class TestRemoveNthFromEnd {
 
     }
 
+    public ListNode removeNthFromEndEasy(ListNode head,int n){
+
+        ListNode fast = head,slow = head;
+
+        while(n-- != 0) fast = fast.next;
+
+        if(fast == null) return head.next;
+
+        while(fast.next != null){
+            fast = fast.next;
+            slow = slow.next;
+        }
+        slow.next = slow.next.next;
+        return head;
+    }
     @Test
     public  void testRemoveNth(){
      int[] arr = new int[]{1,2,3,4,5};

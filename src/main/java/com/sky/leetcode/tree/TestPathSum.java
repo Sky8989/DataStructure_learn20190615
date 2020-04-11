@@ -191,7 +191,25 @@ public class TestPathSum {
         tree.right.right.right.right = new TreeNode(5);
 
         int i = pathSum1Pro(tree,3);
+      //  int i = pathSumN(tree,3);
 
         System.out.println(" res = " + i);
+    }
+
+
+    public int pathSumN(TreeNode root, int sum) {
+        if(root == null) return 0;
+
+        //  return helper(root,sum)  ? 1 : 0;
+
+        return (helperN(root,sum)  ? 1 : 0) + pathSumN(root.left,sum) + pathSumN(root.right,sum);
+    }
+
+    public boolean helperN(TreeNode root, int sum){
+        if(root == null) return false;
+
+        if(root.val == sum) return true;
+
+        return helperN(root.left,sum - root.val) || helperN(root.right, sum - root.val);
     }
 }
